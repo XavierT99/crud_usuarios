@@ -1,15 +1,46 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
 }
+
 table {
   border-collapse: collapse;
   width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
-th, td {
-  border: 1px solid #ccc;
-  padding: 8px;
+
+th {
+  background: #0078d7;
+  color: #fff;
+  text-align: left;
+  padding: 12px;
+  font-weight: bold;
 }
+
+td {
+  border-bottom: 1px solid #eee;
+  padding: 12px;
+}
+
+tr:hover {
+  background-color: #f1f7ff;
+}
+
 a {
-  margin-right: 10px;
+  margin-right: 12px;
+  color: #0078d7;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #005a9e;
+  text-decoration: underline;
 }
